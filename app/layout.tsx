@@ -11,6 +11,7 @@ import { cn } from "@/lib/utils";
 
 import "./globals.css";
 import { DisclaimerModal } from "@/components/disclaimer";
+import FeedbackModal from "@/components/feedback";
 
 const poppins = Poppins({ weight: ["400", "700", "900"], subsets: ["latin"] });
 
@@ -107,6 +108,7 @@ export default function RootLayout({
           <Analytics />
           <Toaster richColors />
           <DisclaimerModal />
+          <FeedbackModal />
         </ThemeProvider>
       </body>
     </html>
