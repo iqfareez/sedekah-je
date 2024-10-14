@@ -9,15 +9,15 @@ import { Header } from "@/components/ui/header";
 import { Toaster } from "@/components/ui/sonner";
 import { cn } from "@/lib/utils";
 
-import "./globals.css";
 import { DisclaimerModal } from "@/components/disclaimer";
+import "./globals.css";
 
 const poppins = Poppins({ weight: ["400", "700", "900"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Sedekah Je",
   description:
-    "Curated and crowdsourced list of mosques/surau/institution QR codes in Malaysia",
+    "Senarai QR masjid, surau, dan institusi yang dikumpulkan netizen.",
   keywords: [
     "sedekah",
     "sedekah qr",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     url: "https://sedekahje.com",
     title: "Sedekah Je",
     description:
-      "Curated and crowdsourced list of mosques/surau/institution QR codes in Malaysia",
+      "Senarai QR masjid, surau, dan institusi yang dikumpulkan netizen.",
     siteName: "Sedekah Je",
     images: [
       {
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     creator: "@asdfghjkhairin",
     title: "Sedekah Je",
     description:
-      "Curated and crowdsourced list of mosques/surau/institution QR codes in Malaysia",
+      "Senarai QR masjid, surau, dan institusi yang dikumpulkan netizen.",
     images: "https://sedekahje.com/sedekahje-twitter.png",
   },
 };
