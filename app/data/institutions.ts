@@ -9063,6 +9063,7 @@ export const institutions: Institution[] = [
     qrContent: "00020201021126420014A000000615000101066033460210MD000803925204866153034585802MY5916MASJID ALI IMRAN6002MY6273032516617648610040024596377100520166176486818400101210716166176396494400263040006",
     supportedPayment: ["duitnow", "tng"]
   },
+  // fareez - masjid
   {
     id: 789,
     name: "Masjid Al-Raudah",
@@ -9074,6 +9075,7 @@ export const institutions: Institution[] = [
     supportedPayment: ["duitnow", "tng"],
     coords: [2.9011975683890894, 102.88847540570958],
   },
+  // fareez - masjid
   {
     id: 790,
     name: "Masjid Al-Makmuriah",
@@ -9085,6 +9087,7 @@ export const institutions: Institution[] = [
     supportedPayment: ["duitnow", "tng"],
     coords: [2.90770306354755, 102.87699397630429],
   },
+  // fareez - masjid
   {
     id: 791,
     name: "Badan Khairat Kematian Felda Keratong 2",
