@@ -9071,7 +9071,9 @@ export const institutions: Institution[] = [
     city: "Bandar Tun Abdul Razak",
     qrImage: "",
     qrContent: "00020201021126630014A000000615000101065893730208MBTR11600319Agrobank's Merchant5204739953034585802MY5917MASJID AL-RAUDAH 6015BANDAR TUN ABDU61052690063048C25",
-    supportedPayment: ["duitnow", "tng"]
+    supportedPayment: ["duitnow", "tng"],
+    coords: [2.9011975683890894, 102.88847540570958],
+
   },
   {
     id: 790,
@@ -9081,6 +9083,19 @@ export const institutions: Institution[] = [
     city: "Bandar Tun Abdul Razak",
     qrImage: "",
     qrContent: "00020201021126600014A000000615000101065892670228BRQR6650017271c83663c27b5dd15204866153034585802MY5919MASJID AL-MAKMURIAH6015BANDAR TUN ABDU61052690062420310M00000339305246650017b6d9eca5efff8c62163047F6D",
-    supportedPayment: ["duitnow", "tng"]
+    supportedPayment: ["duitnow", "tng"],
+    coords: [2.90770306354755, 102.87699397630429],
+
+  },
+  {
+    id: 791,
+    name: "Badan Khairat Kematian Felda Keratong 2",
+    category: "others",
+    state: "Pahang",
+    city: "Bandar Tun Abdul Razak",
+    qrImage: "",
+    qrContent: "00020201021126600014A000000615000101065892670228BRQR664ffee448ea907710470df65204866153034585802MY5924BADAN KHAIRAT KERATONG 26015BANDAR TUN ABDU61052690062420310M0000033930524664fffaf6d9eca5efff8c5c06304E5FB",
+    supportedPayment: ["duitnow", "tng"],
+    coords: [2.90770306354755, 102.87699397630429],
   },
 ];
